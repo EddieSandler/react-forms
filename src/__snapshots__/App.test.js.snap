@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1>
+       Color Box Maker
+    </h1>
+    <div>
+      <h3>
+        Box List
+      </h3>
+      <div>
+        <form
+          onSubmit={[Function]}
+        >
+          <div>
+            <label
+              htmlFor="backroundColor"
+            >
+              Backround Color
+            </label>
+            <input
+              id="backgroundColor"
+              name="backgroundColor"
+              onChange={[Function]}
+              placeholder="background color"
+              type="text"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              htmlFor="width"
+            >
+              width
+            </label>
+            <input
+              id="width"
+              name="width"
+              onChange={[Function]}
+              placeholder="width"
+              type="text"
+              value=""
+            />
+          </div>
+          <label
+            htmlFor="height"
+          >
+            Height
+          </label>
+          <input
+            id="height"
+            name="height"
+            onChange={[Function]}
+            placeholder="height"
+            type="text"
+            value=""
+          />
+          <div>
+            <button>
+              create box
+            </button>
+          </div>
+        </form>
+      </div>
+      <div>
+        <div
+          className="Box"
+          style={
+            Object {
+              "backgroundColor": "purple",
+              "height": "250px",
+              "position": "relative",
+              "width": "250px",
+            }
+          }
+        >
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "position": "absolute",
+                  "right": "0",
+                  "top": "0",
+                }
+              }
+            >
+              x
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>
+       Todo List
+    </h1>
+    <div>
+      <h3>
+        Todo List
+      </h3>
+      <div>
+        <form
+          onSubmit={[Function]}
+        >
+          <div>
+            <label
+              htmlFor="task"
+            >
+              Todo 
+            </label>
+            <input
+              id="task"
+              name="task"
+              onChange={[Function]}
+              placeholder="enter task"
+              type="text"
+              value=""
+            />
+          </div>
+        </form>
+      </div>
+      <div />
+    </div>
+  </header>
+</div>
+`;

@@ -14,7 +14,7 @@ const Todo = ({ id, task, removeTodo }) => {
       </button>
     </div>
   );
-};
+}
 
 
 export default Todo;
